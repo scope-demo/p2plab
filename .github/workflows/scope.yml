@@ -21,7 +21,7 @@ jobs:
       run: go get -v -t -d ./...
 
     - name: Scope for Go
-      uses: undefinedlabs/scope-for-go-action@v1
+      uses: undefinedlabs/scope-for-go-action@v2
       with:
         dsn: ${{secrets.SCOPE_DSN}}
 
