@@ -25,6 +25,7 @@ jobs:
         dsn: ${{secrets.SCOPE_DSN}}
         version: master
 
+
     - name: Upload Scope logs
       if: always()
       uses: actions/upload-artifact@v1
