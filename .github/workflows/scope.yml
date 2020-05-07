@@ -23,7 +23,7 @@ jobs:
       uses: undefinedlabs/scope-for-go-action@v2
       with:
         dsn: ${{secrets.SCOPE_DSN}}
-        version: master
+        version: v0.3.0
 
 
     - name: Upload Scope logs
