@@ -31,7 +31,6 @@ jobs:
         SCOPE_RUNNER_ENABLED: true
         #SCOPE_RUNNER_EXCLUDE_BRANCHES: master
 
-
     - name: Upload Scope logs
       if: always()
       uses: actions/upload-artifact@v1
