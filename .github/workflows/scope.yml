@@ -24,7 +24,7 @@ jobs:
       uses: undefinedlabs/scope-for-go-action@v2
       with:
         dsn: ${{secrets.SCOPE_DSN}}
-        version: v0.3.1
+        version: v0.4.0
         no-parallel: true
       env:
         SCOPE_TESTING_FAIL_RETRIES: 3
